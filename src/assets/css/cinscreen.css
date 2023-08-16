@@ -1,0 +1,355 @@
+.cinmaincontainer {
+    background-color: #FFFFFF;
+}
+
+.custom-switch.checked .ant-switch-handle::before {
+    background-color: #32B586;
+
+
+    /* Change the switch handle color to green when switch is toggled */
+}
+
+.yes-text {
+    color: #32B586;
+
+    /* Change the color of the "yes" text to green */
+}
+
+
+
+
+
+.cin-header-container {
+
+    box-shadow: 0px 2px 4px rgba(145, 143, 143, 0.098);
+    height: 75px;
+    /* Adjust the shadow properties as needed */
+}
+
+.cin_header_img {
+    margin-left: 84%;
+    margin-top: 19px;
+    width: 64px;
+    height: 56px;
+
+}
+
+.cincontainer1 {
+
+    height: 1200px;
+    background-image: url('../Group_89603.png'), url('../backgroundsideimg.png');
+    background-position: bottom center, 5px bottom;
+    background-repeat: repeat, no-repeat;
+    background-size: cover, auto 60%;
+    display: flex;
+    background-color: #D1F5EA1A;
+    margin-left: 12%;
+    margin-right: 12%;
+
+}
+
+.cinimageCalculator {
+    margin-top: 80px;
+}
+
+.cin_h1 {
+    text-align: left;
+    font: normal normal bold 32px;
+    letter-spacing: 0px;
+    color: #06041F;
+
+}
+
+.cin_p {
+    text-align: left;
+    font: normal normal normal 16px;
+    letter-spacing: 0px;
+    color: #06041F;
+    opacity: 0.5;
+}
+
+.cinrootGrid {
+    height: 100vh;
+    padding: 2%;
+}
+
+.cininputField .gstinMuiInputBase-input {
+    padding: 5%;
+    margin: 0%;
+
+
+}
+
+
+.cincinimg {
+    margin: 52px 0px 0px 0px;
+
+}
+
+.cinleftContainer {
+    text-align: center;
+}
+
+.cinrightContainer {
+    padding-right: 2rem;
+}
+
+
+
+
+.cinstatusBar1 {
+
+    height: 10px;
+    display: inline-block;
+    width: 30%;
+    border: solid;
+    border-color: #47d7ac;
+    border-radius: 5px;
+    background-color: #47d7ac;
+    z-index: 99;
+}
+
+
+.cinstatusBar2 {
+    height: 10px;
+    display: inline-block;
+    width: 70%;
+    border: solid;
+    border-color: #c4c9d2;
+    background-color: #c4c9d2;
+    border-radius: 5px;
+    transform: translate(-10px);
+    z-index: -1;
+}
+
+
+
+
+
+.cinsliderSection {
+    width: 556px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 6px 18px 55px -31px rgb(0 0 0 75%);
+    padding: 22px;
+    margin-top: 2rem;
+}
+
+.cinsliderSection1 {
+    width: 556px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 6px 18px 55px -31px rgb(0 0 0  75%);
+    padding: 22px;
+    margin-top: 2rem;
+
+}
+
+
+.cinsalectcin {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.cindivflex {
+    display: flex;
+    margin-top: 20px;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    /* Set the width of the scrollbar */
+    scrollbar-color: transparent transparent;
+
+}
+
+.cindivflex::-webkit-scrollbar {
+    width: 0;
+    /* Hide the scrollbar */
+}
+
+.cindivcapture {
+    margin-left: 20px;
+}
+
+.cinuploadbtn {
+    width: 190px;
+}
+
+.cinuploadArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 190px;
+    transition: border-color 0.3s ease;
+}
+
+.cinuploadArea:hover {
+    border-color: #c4c4c4;
+}
+
+.cincapturebtn {
+    width: 190px;
+}
+
+.cinwebcamContainer {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.cinwebcamContainer video {
+    width: 100%;
+    height: auto;
+}
+
+.cincameraStream {
+    width: 100%;
+    height: auto;
+}
+
+.cinuploadimgarea {
+    margin-top: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 400px;
+    height: 35px;
+    transition: border-color 0.3s ease;
+}
+
+
+.cinInputfield {
+    margin-top: 1rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 18px 55px -31px rgb(0 0 0 / 75%);
+}
+
+.cinimagenamearea {
+    width: 400px;
+        margin: 0;
+}
+
+.cinUploadimgarea1 {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+
+    height: 35px;
+    transition: border-color 0.3s ease;
+
+}
+
+
+
+
+
+
+
+
+
+.gst_card {
+    /* Add common card styles here */
+    transition: border-color 0.10s;
+    cursor: pointer;
+    border: 3px solid transparent;
+    margin: 5px;
+
+}
+
+.gst_cardcontent {
+    width: 170px;
+}
+
+.cindatatext {
+    display: flex;
+    margin-top: 15px;
+
+
+}
+
+.cintextarea {
+    margin-top: 10px;
+}
+
+.cintextcontent {
+    margin-right: 120px;
+
+}
+
+
+
+
+.cinsubmitButtonDiv {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.cinbtn {
+
+    width: 154px;
+    height: 50px;
+    background: transparent linear-gradient(90deg, #88C3AE 0%, #32B586 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 12px 4px 12px 4px !important;
+    border: #32B586;
+    color: #FFFFFF;
+
+    /* Remove text transformation */
+
+    font-size: 25px;
+    text-align: center;
+    /* Add text alignment */
+
+    /* Capitalize the first letter */
+
+}
+
+
+
+
+
+
+
+.errorMessage {
+    color: red;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+@media(max-width: 600px) {
+    .sliderSection {
+        width: 100%;
+    }
+
+    .cinimg {
+        display: none;
+    }
+}

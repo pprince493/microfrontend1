@@ -1,0 +1,563 @@
+.loanmaincontainer {
+    background-color: #FFFFFF;
+}
+
+
+.loan-header-container {
+
+    box-shadow: 0px 2px 4px rgba(145, 143, 143, 0.098);
+    height: 75px;
+    /* Adjust the shadow properties as needed */
+}
+
+.loan_header_img {
+    margin-left: 84%;
+    margin-top: 19px;
+    width: 64px;
+    height: 56px;
+
+}
+.loancontainer1 {
+
+    height: 90vh;
+    background-image: url('../Group_89603.png'), url('../backgroundsideimg.png');
+        background-position: bottom center, 80px bottom;
+        background-repeat: repeat, no-repeat;
+        background-size: cover, auto 60%;
+        display: flex;
+        background-color: #D1F5EA1A;
+        margin-left: 12%;
+        margin-right: 12%;
+
+}
+.loan_h1 {
+    
+    font: normal normal bold 32px/39px;
+    letter-spacing: 0px;
+    color: #06041F;
+
+}
+.loan_div_text {
+    margin-top: 40px;
+    
+    
+    
+}
+
+.loan_p {
+    
+    font: normal normal normal 16px/19px;
+    letter-spacing: 0px;
+    color: #06041F;
+    opacity: 0.5;
+}
+.loanrootGrid {
+    height: 100vh;
+    padding: 2%;
+}
+.loan_img {
+    position: absolute;
+    margin-top: 10%;
+    
+    width: 303px;
+    height: 342px;
+    transform: translate(-40%);
+    padding: 20px;
+}
+
+.loanleftContainer {
+    text-align: center;
+}
+
+.loanrightContainer {
+    padding-right: 2rem;
+    
+}
+
+.loanstatusBar1 {
+
+    height: 10px;
+    display: inline-block;
+    width: 35%;
+    border: solid;
+    border-color: #47d7ac;
+    border-radius: 5px;
+    background-color: #47d7ac;
+    z-index: 99;
+}
+
+
+.loanstatusBar2 {
+    height: 10px;
+    display: inline-block;
+    width: 50%;
+    border: solid;
+    border-color: #c4c9d2;
+    background-color: #c4c9d2;
+    border-radius: 5px;
+    transform: translate(-10px);
+    z-index: -1;
+}
+.loancardcontainer{
+    margin-top: 20px;
+    
+}
+.loan_card {
+    /* Add common card styles here */
+    transition: border-color 0.10s;
+    cursor: pointer;
+    border: 3px solid transparent;
+    margin: 5px;
+    width: 186px;
+    height: 186px;
+
+}
+.loancardcontent{
+    margin-left: 10px;
+}
+.loadcardrow1{
+    display: flex;
+
+}
+.loadcardrow2{
+    display: flex;
+
+}
+
+
+
+
+.loan_card:hover {
+    border-color: #47D7AC;
+}
+
+
+h3 {
+    margin-top: 5%;
+    font-size: 30px;
+    line-height: 40px;
+
+    
+
+}
+
+p {
+    font-size: 13px;
+    line-height: 20px;
+
+    margin-bottom: 10px;
+}
+
+
+.loanradiobtn {
+    margin-left: 90%;
+}
+
+.loanamount {
+    color: #47D7AC;
+
+}
+
+
+
+
+
+.btn:hover {
+    background: transparent;
+    color: aquamarine;
+}
+
+
+h4 {
+    margin-top: 25px;
+
+}
+.loansubmitButtonDiv{
+    margin-top: 5%;
+    
+}
+.loanbtn {
+width: 154px;
+    height: 50px;
+    background: transparent linear-gradient(90deg, #88C3AE 0%, #32B586 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 12px 4px 12px 4px !important;
+    border: #32B586;
+    color: #FFFFFF;
+
+    /* Remove text transformation */
+
+    font-size: 22px;
+    text-align: center;
+    /* Add text alignment */
+
+    /* Capitalize the first letter */
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 969px) {
+.loanmaincontainer {
+        background-color: #FFFFFF;
+    }
+
+
+    .loan-header-container {
+
+        display: none;
+    }
+
+
+    .loancontainer1 {
+
+        height: 100vh;
+        background-image: url('../Group_89603.png');
+        background-position: bottom center;
+        background-size: cover, auto 100%;
+        display: flex;
+        background-color: #D1F5EA1A;
+        width: 100%;
+
+    }
+
+    .loan_h1 {
+
+        font: normal normal bold 32px/39px;
+        letter-spacing: 0px;
+        color: #06041F;
+
+    }
+
+    .loan_div_text {
+        margin-top: 15px;
+        text-align: left;
+
+
+
+    }
+
+    .loan_p {
+
+        font: normal normal normal 16px/19px;
+        letter-spacing: 0px;
+        color: #06041F;
+        opacity: 0.5;
+    }
+
+    .loanpageslider {
+        display: none;
+    }
+
+    .loanrootGrid {
+        height: 100vh;
+        padding: 2%;
+    }
+
+
+    .loanleftContainer {
+        display: none;
+    }
+
+    .loanrightContainer {
+        padding-right: 2rem;
+
+    }
+
+
+    .loancardcontainer {
+        align-items: center;
+
+
+    }
+
+    .loan_card {
+        /* Add common card styles here */
+        transition: border-color 0.10s;
+        cursor: pointer;
+        border: 3px solid transparent;
+        width: 160px;
+        height: 160px;
+
+    }
+
+    .loancardcontent {
+        margin-left: 10px;
+    }
+
+    .loadcardrow1 {
+        display: flex;
+
+    }
+
+    .loadcardrow2 {
+        display: flex;
+
+    }
+
+
+
+
+    .loan_card:hover {
+        border-color: #47D7AC;
+    }
+
+
+    h3 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+
+
+
+    }
+
+    p {
+        font-size: 10px;
+        line-height: 20px;
+
+        margin-bottom: 10px;
+    }
+
+
+    .loanradiobtn {
+        margin-left: 90%;
+    }
+
+    .loanamount {
+        color: #47D7AC;
+
+    }
+
+
+
+
+
+    .btn:hover {
+        background: transparent;
+        color: aquamarine;
+    }
+
+
+    h4 {
+        margin-top: 15px;
+
+    }
+
+    .loansubmitButtonDiv {
+        margin-top: 5%;
+
+    }
+
+    .loanbtn {
+        width: 30%;
+        height: 50px;
+        background: transparent linear-gradient(90deg, #88C3AE 0%, #32B586 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-radius: 12px 4px 12px 4px !important;
+        border: #32B586;
+        color: #FFFFFF;
+
+        /* Remove text transformation */
+
+        font-size: 22px;
+        text-align: center;
+        /* Add text alignment */
+
+        /* Capitalize the first letter */
+    }
+
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 600px) {
+
+    .loanmaincontainer {
+            background-color: #FFFFFF;
+        }
+    
+    
+        .loan-header-container {
+    
+          display: none;
+        }
+    
+       
+        .loancontainer1 {
+    
+            height: 100vh;
+            background-image: url('../Group_89603.png');
+            background-position: bottom center;
+            background-size: cover, auto 100%;
+            display: flex;
+            background-color: #D1F5EA1A;
+           width: 100%;
+    
+        }
+    
+        .loan_h1 {
+    
+            font: normal normal bold 32px/39px;
+            letter-spacing: 0px;
+            color: #06041F;
+    
+        }
+    
+        .loan_div_text {
+            margin-top: 15px;
+            text-align: center;
+    
+    
+    
+        }
+    
+        .loan_p {
+    
+            font: normal normal normal 16px/19px;
+            letter-spacing: 0px;
+            color: #06041F;
+            opacity: 0.5;
+        }
+        .loanpageslider{
+            display: none;
+        }
+    
+        .loanrootGrid {
+            height: 100vh;
+            padding: 2%;
+        }
+    
+    
+        .loanleftContainer {
+            text-align: left;
+        }
+    
+        .loanrightContainer {
+            padding-right: 2rem;
+    
+        }
+    
+        
+        .loancardcontainer {
+            margin-top: 10;
+            
+    
+        }
+    
+        .loan_card {
+            /* Add common card styles here */
+            transition: border-color 0.10s;
+            cursor: pointer;
+            border: 3px solid transparent;
+            width: 160px;
+            height: 160px;
+    
+        }
+    
+        .loancardcontent {
+            margin-left: 10px;
+        }
+    
+        .loadcardrow1 {
+            display: flex;
+    
+        }
+    
+        .loadcardrow2 {
+            display: flex;
+    
+        }
+    
+    
+    
+    
+        .loan_card:hover {
+            border-color: #47D7AC;
+        }
+    
+    
+        h3 {
+            margin-top: 5px;
+            font-size: 20px;
+            line-height: 40px;
+    
+    
+    
+        }
+    
+        p {
+            font-size: 10px;
+            line-height: 20px;
+    
+            margin-bottom: 10px;
+        }
+    
+    
+        .loanradiobtn {
+            margin-left: 90%;
+        }
+    
+        .loanamount {
+            color: #47D7AC;
+    
+        }
+    
+    
+    
+    
+    
+        .btn:hover {
+            background: transparent;
+            color: aquamarine;
+        }
+    
+    
+        h4 {
+            margin-top: 15px;
+    
+        }
+    
+        .loansubmitButtonDiv {
+            margin-top: 5%;
+    
+        }
+    
+        .loanbtn {
+            width: 100%;
+            height: 50px;
+            background: transparent linear-gradient(90deg, #88C3AE 0%, #32B586 100%) 0% 0% no-repeat padding-box;
+            opacity: 1;
+            border-radius: 12px 4px 12px 4px !important;
+            border: #32B586;
+            color: #FFFFFF;
+    
+            /* Remove text transformation */
+    
+            font-size: 22px;
+            text-align: center;
+            /* Add text alignment */
+    
+            /* Capitalize the first letter */
+        }
+    
+
+   
+
+
+}

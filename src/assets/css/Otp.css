@@ -1,0 +1,33 @@
+.otp-input {
+    display: flex;
+}
+
+.otp-box {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #4aa47e;
+    border-radius: 5px;
+}
+
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-Top: 120px;
+}
+@media(max-width: 600px){
+    
+        .otp-box {
+                width: 30px;
+                height: 30px;
+                font-size: 24px;
+                margin-right: 10px;
+                text-align: center;
+                border: 1px solid #4aa47e;
+                border-radius: 5px;
+            }
+    
+}

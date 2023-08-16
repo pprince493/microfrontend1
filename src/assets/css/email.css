@@ -1,0 +1,142 @@
+.grid {
+
+    width: '100%';
+
+    height: '100%';
+
+}
+
+.container1 {
+
+    height: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #D1F5EA1A;
+
+}
+
+
+
+.form_h1 {
+    font-size: 32px;
+    margin-top: 150px;
+}
+
+.img {
+    height: 100vh;
+    width: 80vh;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    height: 400px;
+    transform: translate(-40%);
+    padding: 20px;
+}
+
+
+
+.formbtn {
+
+    width: 30%;
+    background-color: rgb(15, 208, 144) !important;
+    border-radius: 12px 0 12px 0 !important;
+
+}
+
+.formtextfield {
+    width: 90% !important;
+}
+
+.div_h1 {
+    margin-top: 25%;
+}
+
+.div_p {
+    margin-top: 2%;
+}
+
+.div_textfield {
+    margin-top: 2%;
+}
+
+.div_btn {
+    margin-top: 5%;
+}
+
+
+
+.gridContainer {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0px;
+}
+
+.gridContainer>.MuiGrid-item {
+    border: none;
+}
+
+
+
+
+@media(max-width: 600px) {
+    .img {
+        position: absolute;
+
+        top: 15%;
+        left: 50%;
+        height: 180px;
+        width: 100%;
+        transform: translate(-50%, -50%);
+
+        padding: 20px;
+
+    }
+
+    .form_h1 {
+        width: 100%;
+        font-size: 22px;
+        margin-top: 55%;
+        margin-left: 10%;
+    }
+
+    .form_p {
+        font-size: 13px;
+        margin-left: 5%;
+    }
+
+    .formbtn {
+
+        width: 85%;
+        background-color: rgb(15, 208, 144) !important;
+        border-radius: 12px 0 12px 0 !important;
+
+    }
+
+
+
+    .div_p {
+        width: 100%;
+        margin-top: 2%;
+
+    }
+
+    .div_textfield {
+        margin-left: 3%;
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .div_btn {
+        margin-left: 3%;
+        width: 100%;
+        margin-top: 40%;
+    }
+
+
+}

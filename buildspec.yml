@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Entered the build phase...
+      - docker ps
+      - docker build -t microfrontend_frontend .
+      - docker ps
+      -
+  post_build:
+    commands:
+      - echo Build completed successfully
+      - ls -a
+      - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 224380133847.dkr.ecr.ap-south-1.amazonaws.com
+      - docker tag microfrontend_frontend:latest 224380133847.dkr.ecr.ap-south-1.amazonaws.com/microfrontend_frontend:latest
+      - docker images
+      - docker push 224380133847.dkr.ecr.ap-south-1.amazonaws.com/microfrontend_frontend:latest

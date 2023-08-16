@@ -1,0 +1,439 @@
+.gstinmaincontainer {
+    background-color: #FFFFFF;
+}
+
+.custom-switch.checked .ant-switch-handle::before {
+    background-color: #32B586;
+
+    /* Change the switch handle color to green when switch is toggled */
+}
+
+.yes-text {
+    color: #32B586;
+
+    /* Change the color of the "yes" text to green */
+}
+
+
+
+
+
+.gstin-header-container {
+
+    box-shadow: 0px 2px 4px rgba(145, 143, 143, 0.098);
+    height: 75px;
+    /* Adjust the shadow properties as needed */
+}
+
+.gstin_header_img {
+    margin-left: 84%;
+    margin-top: 19px;
+    width: 64px;
+    height: 56px;
+
+}
+
+.gstincontainer1 {
+
+    height: 1200px;
+    background-image: url('../Group_89603.png'), url('../backgroundsideimg.png');
+    background-position: bottom center, 5px bottom;
+    background-repeat: repeat, no-repeat;
+    background-size: cover, auto 60%;
+    display: flex;
+    background-color: #D1F5EA1A;
+    margin-left: 12%;
+    margin-right: 12%;
+
+}
+
+.gstinimageCalculator {
+    margin-top: 80px;
+}
+
+.gstin_h1 {
+    text-align: left;
+    font: normal normal bold 39px;
+    letter-spacing: 0px;
+    color: #06041F;
+
+}
+
+.gstin_p {
+    text-align: left;
+    font: normal normal normal 19px;
+    letter-spacing: 0px;
+    color: #06041F;
+    opacity: 0.5;
+}
+
+
+.gstinrootGrid {
+    height: 100vh;
+    padding: 2%;
+}
+
+.gstininputField .gstinMuiInputBase-input {
+    padding: 5%;
+    margin: 0%;
+
+
+}
+
+
+.gstincinimg {
+    margin: 52px 0px 0px 0px;
+
+}
+
+.gstinleftContainer {
+    text-align: center;
+}
+
+.gstinrightContainer {
+    padding-right: 2rem;
+}
+
+
+
+
+.gstinstatusBar1 {
+
+    height: 10px;
+    display: inline-block;
+    width: 30%;
+    border: solid;
+    border-color: #47d7ac;
+    border-radius: 5px;
+    background-color: #47d7ac;
+    z-index: 99;
+}
+
+
+.gstinstatusBar2 {
+    height: 10px;
+    display: inline-block;
+    width: 70%;
+    border: solid;
+    border-color: #c4c9d2;
+    background-color: #c4c9d2;
+    border-radius: 5px;
+    transform: translate(-10px);
+    z-index: -1;
+}
+
+
+
+
+
+.gstinsliderSection {
+    width: 556px;
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 6px 18px 55px -31px rgba(0, 0, 0, 0.754);
+    padding: 22px;
+    margin-top: 2rem;
+}
+
+.gstinsliderSection1 {
+    width: 556px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 6px 18px 55px -31px rgb(0, 0, 0, 0.754);
+    padding: 22px;
+    margin-top: 2rem;
+
+}
+
+
+.gstinsalectcin {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.gstindivflex {
+    display: flex;
+
+    margin-top: 20px;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    /* Set the width of the scrollbar */
+    scrollbar-color: transparent transparent;
+
+}
+
+.gstindivflex::-webkit-scrollbar {
+    width: 0;
+    /* Hide the scrollbar */
+}
+
+.gstindivcapture {
+    margin-left: 20px;
+}
+
+.gstinuploadbtn {
+    width: 190px;
+}
+
+.gstinuploadArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0000007b;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 190px;
+    transition: border-color 0.3s ease;
+}
+
+.gstinuploadArea1:hover {
+    border-color: #c4c4c4;
+}
+
+.gstincapturebtn1 {
+    width: 190px;
+}
+
+.gstinwebcamContainer {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.gstinwebcamContainer video {
+    width: 100%;
+    height: auto;
+}
+
+.gstincameraStream {
+    width: 100%;
+    height: auto;
+}
+
+.gstinuploadimgarea {
+    margin-top: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 400px;
+    height: 35px;
+    transition: border-color 0.3s ease;
+}
+
+.gst_card {
+    /* Add common card styles here */
+    transition: border-color 0.10s;
+    cursor: pointer;
+    border: 3px solid transparent;
+    margin: 5px;
+    height: 124px;
+    width: 145px;
+    box-shadow: #2b2b2c;
+
+}
+
+.gst_card:hover {
+    border-color: #47D7AC;
+}
+
+.gstincarddivflex {
+    display: flex;
+
+    margin-top: 20px;
+    /* overflow-x: scroll;
+    scrollbar-width: thin;
+    
+    /* Set the width of the scrollbar */
+    /*
+    scrollbar-color: transparent transparent;
+    */
+}
+.gstinInputfield {
+    margin-top: 1rem;
+    
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 18px 55px -31px rgb(0 0 0 / 75%);
+}
+
+.gstinimagenamearea {
+    width: 400px;
+    margin: 0;
+}
+
+.gstinUploadimgarea1 {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+
+    height: 35px;
+    transition: border-color 0.3s ease;
+
+}
+
+
+
+
+.gstinradioIcon {
+    margin-top: 3px;
+    margin-left: 90%;
+}
+
+.gstincard_textarea_upper {
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: #06041F;
+    margin: 0;
+    padding: 0;
+
+}
+
+.gstincardtext_div_upper {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.gstincard_textarea_lower {
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    color: #06041f83;
+    top: auto;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.gstincardtext_div_lower {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.gst_cardcontent {
+    width: 170px;
+}
+
+.gstindatatext {
+    display: flex;
+    margin-top: 15px;
+
+
+}
+
+.gstincarddata_p {
+    text-align: left;
+    font: normal normal normal 15px;
+    letter-spacing: 0px;
+    color: #06041f87;
+    opacity: 0.5;
+    margin: 0;
+    padding: 0;
+}
+
+.gstindatatext {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #06041fba;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.gstintextarea {
+    margin-top: 25px;
+
+}
+
+.gstintextcontent {
+    margin-right: 20px;
+
+
+}
+
+
+.gstinsubmitButtonDiv {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.gstinbtn {
+
+    width: 154px;
+    height: 50px;
+    background: transparent linear-gradient(90deg, #88C3AE 0%, #32B586 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 12px 4px 12px 4px !important;
+    border: #32B586;
+    color: #FFFFFF;
+
+    /* Remove text transformation */
+
+    font-size: 25px;
+    text-align: center;
+    /* Add text alignment */
+
+    /* Capitalize the first letter */
+
+}
+
+
+
+
+
+
+
+.errorMessage {
+    color: red;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@media(max-width: 900px) {
+
+    .gstinsubmitButtonDiv #submitbutton {
+        width: 80%;
+    }
+
+    .gstinsubmitButtonDiv {
+        text-align: center;
+    }
+
+    .gstinsliderSection {
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .gstinsliderSection {
+        width: 100%;
+    }
+
+    .gstincinimg {
+        display: none;
+    }
+}

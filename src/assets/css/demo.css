@@ -1,0 +1,72 @@
+.btn {
+    margin-top: 5%;
+    width: 100%;
+    margin-right:60%;
+
+    background-color: #010b08f9 !important;
+}
+.div_btn{
+    width: 80%;
+        margin-right: 10%;
+}
+.grid {
+
+    width: '100%';
+
+    height: '100%';
+
+}
+.container_top{
+    display: flex;
+        align-items: center;
+
+}
+.box-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.loan_card1 {
+    margin-right: 10px;
+}
+
+.box-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 60px;
+    /* Add the box shadow style */
+    /* Add other styling properties as needed */
+}
+
+.box-container1 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 60px;
+    /* Add the box shadow style */
+    /* Add other styling properties as needed */
+}
+
+.demo_h1 {
+    
+    font-size: 22px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.demo_p {
+    font-size: 10px;
+
+    margin-left: 10%;
+}
+
+.div_btn {
+   
+    width: 50%;
+}

@@ -1,0 +1,309 @@
+.grid {
+
+    width: '100%';
+
+    height: '100%';
+
+}
+
+.container1 {
+
+    height: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #D1F5EA1A;
+
+}
+
+
+
+.form_h1 {
+    font-size: 32px;
+    margin-top: 150px;
+}
+
+.img {
+    height: 100vh;
+    width: 80vh;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    height: 400px;
+    transform: translate(-40%);
+    padding: 20px;
+}
+
+.pincodemodel {
+
+    width: 40vh;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    height: 180px;
+    transform: translate(-40%);
+    padding: 20px;
+}
+
+.pincodemodel_p {
+    margin-top: 5px;
+}
+
+.formbtn {
+
+    width: 30%;
+    background-color: rgb(15, 208, 144) !important;
+    border-radius: 12px 0 12px 0 !important;
+
+}
+
+.formtextfield {
+    width: 90% !important;
+}
+
+.div_h1 {
+    margin-top: 25%;
+}
+
+.div_p {
+    margin-top: 2%;
+}
+
+.div_textfield {
+    margin-top: 2%;
+}
+
+.div_btn {
+    margin-top: 5%;
+}
+
+.otp_p {
+    width: 95%;
+}
+
+.otp_box {
+    margin-top: 5%;
+    width: 100%
+}
+
+.gridContainer {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0px;
+}
+
+.gridContainer>.MuiGrid-item {
+    border: none;
+}
+
+.modalContainer {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+}
+
+.otpmodal_btn {
+    width: 80%;
+    margin-top: 25%;
+    margin-left: 10%;
+
+}
+
+.otpmodelbtn {
+
+    width: 100%;
+    background-color: rgb(15, 208, 144) !important;
+    border-radius: 12px 0 12px 0 !important;
+
+}
+
+.pincodemodal_btn {
+    width: 50%;
+    margin-top: 38%;
+    margin-left: 20%;
+
+}
+
+.pincodemodelbtn {
+    width: 100%;
+    background-color: rgb(15, 208, 144) !important;
+    border-radius: 12px 0 12px 0 !important;
+}
+
+.modal_h1 {
+
+    top: 5%;
+
+}
+
+.modal_p {
+
+    margin-top: 10%;
+
+}
+
+.modal_otp {
+
+    margin-top: 15%;
+}
+
+.otp-input {
+    display: flex;
+}
+
+.otp-box {
+    margin-top: 10%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #4aa47e;
+    border-radius: 5px;
+}
+
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-Top: 120px;
+}
+
+@media(max-width: 600px) {
+    .img {
+        position: absolute;
+
+        top: 15%;
+        left: 50%;
+        height: 180px;
+        width: 100%;
+        transform: translate(-50%, -50%);
+
+        padding: 20px;
+
+    }
+
+    .form_h1 {
+        width: 100%;
+        font-size: 22px;
+        margin-top: 55%;
+        margin-left: 10%;
+    }
+
+    .form_p {
+        font-size: 13px;
+        margin-left: 5%;
+    }
+
+    .formbtn {
+
+        width: 85%;
+        background-color: rgb(15, 208, 144) !important;
+        border-radius: 12px 0 12px 0 !important;
+
+    }
+
+
+
+    .div_p {
+        width: 100%;
+        margin-top: 2%;
+
+    }
+
+    .div_textfield {
+        margin-left: 3%;
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .div_btn {
+        margin-left: 3%;
+        width: 100%;
+        margin-top: 40%;
+    }
+
+    .modalContainer {
+        position: absolute;
+        width: 280px;
+        top: 35%;
+        height: 300px;
+        left: 30%;
+        transform: translate(-25%, -70%);
+        background-color: #fff;
+        padding: 20px;
+    }
+
+    .modal_h1 {
+
+        top: 1%;
+        font-size: 16px;
+
+    }
+
+    .modal_p {
+
+        margin-top: 2%;
+        font-size: 10px;
+
+    }
+
+    .modal_otp {
+
+        margin-top: 10%;
+
+
+
+    }
+
+    .modal_btn {
+
+        margin-top: 40%;
+
+    }
+
+    .otp-box {
+        margin-top: 10%;
+        width: 30px;
+        height: 30px;
+        font-size: 24px;
+        margin-right: 10px;
+        text-align: center;
+        border: 1px solid #4aa47e;
+        border-radius: 5px;
+    }
+
+    .pincodemodel {
+
+        width: 20vh;
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        height: 120px;
+        transform: translate(-40%);
+        padding: 20px;
+    }
+
+    .pincodemodal_btn {
+        width: 90%;
+        margin-top: 50%;
+        margin-left: 5%;
+
+    }
+
+    .pincodemodelbtn {
+        width: 100%;
+        background-color: rgb(15, 208, 144) !important;
+        border-radius: 12px 0 12px 0 !important;
+    }
+
+}

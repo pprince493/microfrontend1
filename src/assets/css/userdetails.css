@@ -1,0 +1,457 @@
+.userdetailsmaincontainer {
+    background-color: #FFFFFF;
+}
+
+
+.userdetails-container {
+
+    box-shadow: 0px 2px 4px rgba(145, 143, 143, 0.098);
+    height: 75px;
+    /* Adjust the shadow properties as needed */
+}
+
+.userdetails_header_img {
+    margin-left: 84%;
+    margin-top: 19px;
+    width: 64px;
+    height: 56px;
+
+}
+
+.userdetailscontainer1 {
+
+    height: 90vh;
+    background-image: url('../Group_89603.png'), url('../backgroundsideimg.png');
+    background-position: bottom center, 80px bottom;
+    background-repeat: repeat, no-repeat;
+    background-size: cover, auto 60%;
+    display: flex;
+    background-color: #D1F5EA1A;
+    margin-left: 12%;
+    margin-right: 12%;
+
+}
+
+
+
+
+
+.userdetails_img {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 369px;
+    height: 359px;
+    transform: translate(-40%);
+    padding: 20px;
+}
+
+.userdetails_h1 {
+    text-align: left;
+    font: normal normal bold 32px/39px;
+    letter-spacing: 0px;
+    color: #06041F;
+
+}
+
+.userdetails_p {
+    text-align: left;
+    font: normal normal normal 16px/19px;
+    letter-spacing: 0px;
+    color: #06041F;
+    opacity: 0.5;
+}
+
+.userdetails_email_textfield {
+    width: 449px !important;
+    background-color: white
+}
+
+.userdetails_firstname_textfield {
+    width: 218px !important;
+    background-color: white
+}
+
+.userdetails_lastname_textfield {
+
+    width: 218px !important;
+    background-color: white
+}
+
+.userdetails_div_textfield {
+    margin-top: 25px;
+    margin-right: 10px;
+
+}
+
+.userdetails_div_text {
+    margin-top: 20%;
+}
+
+.userdetails_p_textfield {
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+
+}
+
+.userdetailsnamediv {
+    display: flex;
+}
+
+
+.userdetailsbtn {
+
+    width: 250px;
+    height: 40px;
+    background: transparent linear-gradient(90deg, #88C3AE 0%, #32B586 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 12px 4px 12px 4px !important;
+    border: #32B586;
+    color: #FFFFFF;
+    /* Remove text transformation */
+
+    font-size: 16px;
+    text-align: center;
+    /* Add text alignment */
+
+    /* Capitalize the first letter */
+
+}
+
+
+
+.userdetails_div_btn {
+    margin-top: 5%;
+}
+
+
+
+.gridContainer {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0px;
+}
+
+.gridContainer>.MuiGrid-item {
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:900px) {
+    .userdetailsmaincontainer {
+        background-color: #FFFFFF;
+    }
+
+
+    .userdetails-container {
+
+        box-shadow: 0px 2px 4px rgba(145, 143, 143, 0.098);
+        height: 75px;
+        /* Adjust the shadow properties as needed */
+    }
+
+    .userdetails_header_img {
+        margin-left: 84%;
+        margin-top: 19px;
+        width: 64px;
+        height: 56px;
+
+    }
+
+    .userdetailscontainer1 {
+
+        height: 90vh;
+        background-image: url('../Group_89603.png'), url('../backgroundsideimg.png');
+        background-position: bottom center, left bottom;
+        background-repeat: repeat, no-repeat;
+        background-size: cover, auto 60%;
+        display: flex;
+        background-color: #D1F5EA1A;
+        margin-left: 12%;
+        margin-right: 12%;
+
+    }
+
+
+
+
+
+    .userdetails_img {
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 30%;
+        width: 369px;
+        height: 250px;
+        transform: translate(-40%);
+        padding: 20px;
+    }
+
+    .userdetails_h1 {
+
+        text-align: left;
+        font: normal normal bold 32px/39px;
+        letter-spacing: 0px;
+        color: #06041F;
+
+    }
+
+    .userdetails_div_text {
+        margin-top: 120px;
+    }
+
+    .userdetails_p {
+        text-align: left;
+        font: normal normal normal 16px/19px;
+        letter-spacing: 0px;
+        color: #06041F;
+        opacity: 0.5;
+    }
+
+    .userdetails_email_textfield {
+        width: 449px !important;
+        background-color: white
+    }
+
+    .userdetails_firstname_textfield {
+        width: 218px !important;
+        background-color: white
+    }
+
+    .userdetails_lastname_textfield {
+
+        width: 218px !important;
+        background-color: white
+    }
+
+    .userdetails_div_textfield {
+        margin-top: 25px;
+        margin-right: 10px;
+
+    }
+
+
+    .userdetails_p_textfield {
+        text-align: left;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+
+    }
+
+    .userdetailsnamediv {
+        display: flex;
+    }
+
+
+    .userdetailsbtn {
+
+        width: 250px;
+        height: 40px;
+        background: transparent linear-gradient(90deg, #88C3AE 0%, #32B586 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-radius: 12px 4px 12px 4px !important;
+        border: #32B586;
+        color: #FFFFFF;
+        /* Remove text transformation */
+
+        font-size: 16px;
+        text-align: center;
+        /* Add text alignment */
+
+        /* Capitalize the first letter */
+
+    }
+
+
+
+    .userdetails_div_btn {
+        margin-top: 5%;
+    }
+
+
+
+    .gridContainer {
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+        padding: 0px;
+    }
+
+    .gridContainer>.MuiGrid-item {
+        border: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px) {
+    .userdetailsmaincontainer {
+        height: 100%;
+        background-color: #FFFFFF;
+    }
+
+
+    .userdetails-container {
+
+        box-shadow: 0px 2px 4px rgba(145, 143, 143, 0.098);
+        
+        /* Adjust the shadow properties as needed */
+    }
+
+    .userdetails_header_img {
+        display: none;
+    }
+
+    .userdetailscontainer1 {
+
+        height: 800px;
+        background-image: url('../backgroundsideimg.png');
+        background-position: 80px bottom;
+        background-repeat: repeat, no-repeat;
+        background-size: cover, auto 60%;
+        display: flex;
+        background-color: #FFFFFF;
+        ;
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+
+
+
+
+
+    .userdetails_img {
+        position: absolute;
+        margin-top: -5px;
+        margin-left: 40%;
+        width: 369px;
+        height: 180px;
+        
+        padding: 20px;
+    }
+
+    .userdetails_h1 {
+        text-align: center;
+        font-size: 22px;
+        letter-spacing: 0px;
+        color: #06041F;
+
+    }
+
+    .userdetails_p {
+        text-align: center;
+        font: normal normal normal 16px/19px;
+        letter-spacing: 0px;
+        color: #06041F;
+        opacity: 0.5;
+    }
+
+    .userdetails_div_text {
+        margin-top: -130px;
+        margin-left: 30px;
+    }
+
+    .userdetails_email_textfield {
+        width: 100% !important;
+        background-color: white
+    }
+
+    .userdetails_firstname_textfield {
+        width: 100% !important;
+        background-color: white
+    }
+
+    .userdetails_lastname_textfield {
+
+        width: 100% !important;
+        background-color: white
+    }
+
+    .userdetails_div_textfield {
+        
+        margin-top: 10px;
+
+    }
+
+
+
+    .userdetails_p_textfield {
+        text-align: left;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 5px;
+        color: #000000;
+
+    }
+
+    .userdetailsnamediv {
+        display: inline;
+    }
+
+
+
+    .userdetailsbtn {
+
+        width: 100%;
+        height: 40px;
+        background: transparent linear-gradient(90deg, #88C3AE 0%, #32B586 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-radius: 12px 4px 12px 4px !important;
+        border: #32B586;
+        color: #FFFFFF;
+        /* Remove text transformation */
+
+        font-size: 16px;
+        text-align: center;
+        /* Add text alignment */
+
+        /* Capitalize the first letter */
+
+    }
+
+
+
+    .userdetails_div_btn {
+        margin-top: 5%;
+    }
+
+
+
+    .gridContainer {
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+        padding: 0px;
+    }
+
+    .gridContainer>.MuiGrid-item {
+        border: none;
+    }
+
+}

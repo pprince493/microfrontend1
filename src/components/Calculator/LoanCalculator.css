@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.container {
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    background-color: rgb(247 251 250);
+    background-image: url('../../assets/Group_89603.png');
+    background-position: bottom;
+    background-size: cover;
+    z-index: -100;
+    padding-top: 20px;
+    margin-left: 12%;
+    margin-right: 12%;
+    min-height: 95vh;
+
+}
+.rootGrid {
+    height: 100vh;
+    padding: 2%;
+}
+
+.inputField .MuiInputBase-input {
+    padding: 5%;
+    margin: 0%;
+
+
+}
+
+
+.imageCalculator {
+    height: 60vh;
+    margin-top: 20vh;
+    max-height: 350px;
+
+}
+
+.leftContainer {
+    text-align: center;
+}
+
+.rightContainerCal {
+    margin-top: 10vh !important;
+    padding-right: 10%;
+}
+.nameRow.h1 {
+    font-size: 12px;
+}
+
+.titlerow {
+    text-align: left;
+    font-size: 12px;
+    font: normal normal bold Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 5px;
+}
+
+.calSubtitle {
+    text-align: left;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #06041F;
+    opacity: 0.5;
+}
+
+
+
+.nameRow.div.h1 {
+    font-size: 25px;
+}
+
+.subtitle {
+    color: #858592;
+}
+
+
+
+.statusBar1 {
+
+    height: 10px;
+    display: inline-block;
+    width: 30%;
+    border: solid;
+    border-color: #47d7ac;
+    border-radius: 5px;
+    background-color: #47d7ac;
+    z-index: 99;
+}
+
+
+.statusBar2 {
+    height: 10px;
+    display: inline-block;
+    width: 70%;
+    border: solid;
+    border-color: #c4c9d2;
+    background-color: #c4c9d2;
+    border-radius: 5px;
+    transform: translate(-10px);
+    z-index: -1;
+}
+
+.inputAndLabel {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sliderSubSection {
+    margin-bottom: 2rem;
+}
+.MuiSlider-root{
+    width: 95% !important;
+}
+.sliderSection {
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 6px 18px 55px -31px rgb(0 0 0 / 75%);
+    padding: 22px;
+    margin-top: 2rem;
+}
+
+.resultRows {
+    margin-top: 2rem;
+}
+
+#resultRow-1 {
+    margin-top: 0rem;
+}
+
+.resultcol2 {
+    color: #47d7ac;
+    font-weight: 700;
+}
+
+.resultcol1 {
+    color: #8a8a8a;
+    font-weight: 700;
+}
+
+.submitButtonDiv {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.submitButtonDiv #submitbutton {
+    width: 30%;
+    background-color: rgb(15, 208, 144) !important;
+    border-radius: 12px 0 12px 0 !important;
+
+}
+
+.green-slider {
+    color: white;
+    height: 100px;
+}
+
+.green-slider .MuiSlider-track {
+    color: rgb(71 215 172);
+    height: 10px;
+    border-radius: 10px;
+}
+
+.green-slider .MuiSlider-rail {
+    height: 10px;
+    color: #c4c9d2;
+    border-radius: 10px;
+}
+.bgimage2{
+    height: 50%;
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    /* background-image: url('../../assets/backgroundImages/bgImage1.png'); */
+    background-position: bottom;
+    background-size: cover;
+    content:url('../../assets/backgroundImages/bgImage1.png');
+    z-index: 10000;
+    
+}
+.green-slider .MuiSlider-thumb {
+    color: #ffffff;
+    height: 30px;
+    width: 30px;
+    transform: translateY(-5px);
+    border: solid black;
+}
+
+.green-slider .MuiSlider-valueLabel {
+    display: none;
+}
+
+.green-slider .MuiSlider-markLabel {
+    left: 90% !important;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@media(max-width: 900px) {
+
+    .submitButtonDiv #submitbutton {
+        width: 80%;
+    }
+
+    .submitButtonDiv {
+        text-align: center;
+    }
+
+    .sliderSection {
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .sliderSection {
+        width: 100%;
+    }
+
+    .imageCalculator {
+        display: none;
+    }
+}
